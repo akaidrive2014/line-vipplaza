@@ -26,6 +26,14 @@ Class Vipplaza{
         return empty($array) ? null : $array;
     }
 
+    //
+    public static function getSku($sku_list){
+        $remove = "\n";
+        $split = explode($remove, $sku_list);
+        $array = $split;
+        return empty($array) ? null : $array;
+    }
+
     public static function url_title($str, $separator = '-', $lowercase = TRUE) {
         if ($separator == 'dash') {
             $separator = '-';

@@ -51,6 +51,7 @@ return array(
                 'product/<id:\d+>/<title>'=>'store/productdetail',
                 //product-add-to-cart/<id:\d+>
                 'product-add-to-cart'=>'store/addtocart',
+                'admin-log1n'=>'site/login',
 			),
 		),
 

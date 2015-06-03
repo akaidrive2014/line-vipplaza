@@ -21,9 +21,9 @@
     var BLANK_IMG = 'http://www.vipplaza.com/js/spacer.gif';</script>
 
 <link rel="stylesheet" type="text/css"
-      href="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/calendar/A.calendar-win2k-1.css.pagespeed.cf.j5-d1K-5-p.css"/>
+      href="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/A_002.css"/>
 <link rel="stylesheet" type="text/css"
-      href="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/A.default,,_mobile,,_css,,_iphone.css+default,,_default,,_aw_autorelated,,_css,,_category.css+default,,_default,,_popup,,_css,,_style.css+base,,_default,,_css,,_amasty,,_amfpc,,_styles.css,Mcc.1g8G3NCB9O.css.pagespeed.cf.zFykfpUCLK.css"
+      href="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/A_005.css"
       media="all"/>
 
 
@@ -87,16 +87,16 @@
         vertical-align: middle
     }</style>
 <link rel="stylesheet" type="text/css"
-      href="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/calendar/css/smoothness/A.calendar-ui.css.pagespeed.cf.yIEYAQRZj2.css"
+      href="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/A_003.css"
       media="all"/>
 <link rel="stylesheet" type="text/css"
-      href="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/css/A.privatesales.css.pagespeed.cf.PATHMXImEP.css"
+      href="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/A.css"
       media="all"/>
 <link rel="stylesheet" type="text/css"
-      href="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/css/A.custom.css.pagespeed.cf.0_2D0JhU1D.css"
+      href="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/A_006.css"
       media="all"/>
 <link rel="stylesheet" type="text/css"
-      href="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/A.vipplaza,,_css,,_jqzoom.css+default,,_aw_autorelated,,_css,,_product.css,Mcc.8MFyBuvOZ6.css.pagespeed.cf.EaPvrbQpeF.css"
+      href="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/A_004.css"
       media="all"/>
 <link href="http://line.vipplaza.lc/themes/front/line.vipplaza/line-promo.css" media="all" rel="stylesheet">
 <style media="all">.shop-close, .shop-close span {
@@ -136,69 +136,40 @@
         color: #d00000;
         font-style: italic
     }</style>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/prototype/prototype.js.pagespeed.jm.ix8Kb1Gh8H.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/lib/ccard.js.pagespeed.jm.46Y_fMzWWn.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/prototype/validation.js.pagespeed.jm.SA8nf3sBET.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/scriptaculous/builder.js.pagespeed.jm.wPs5WKCrTa.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/scriptaculous/effects.js.pagespeed.jm.2gOWX1ohLv.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/scriptaculous/dragdrop.js.pagespeed.jm.NdQNdCP4RN.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/scriptaculous/controls.js.pagespeed.jm.MSQlZHbBOp.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/scriptaculous/slider.js.pagespeed.jm.g37FxI5JWD.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/varien/js.js.pagespeed.jm.a1ob59fvhV.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/varien/form.js.pagespeed.jm.yOUIA-cY_3.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/mage/translate.js.pagespeed.jm.T7x0xnKtPV.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/mage/cookies.js.pagespeed.jm.kAOWcvc3yY.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/prototype/effects.js.pagespeed.jm.6K4lpdqgvD.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/prototype/window.js.pagespeed.jm.zIgKuz8t7B.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/popup/popup.js.pagespeed.jm.qcdCK4cLYG.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/calendar/calendar.js.pagespeed.jm.vXTVW2_uN4.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/varien/product.js.pagespeed.jm.DyIlLoQjN7.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/varien/configurable.js.pagespeed.jm.6mCN0rIvSZ.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/calendar/calendar-setup.js.pagespeed.jm.asApHyw8xX.js"></script>
 
-<?php /*
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/ebizmarts/autoresponders/visitedproducts.js.pagespeed.jm.LSZLGWOhsF.js"></script>
-*/ ?>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/prototype.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/ccard.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/validation.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/builder.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/effects.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/dragdrop.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/controls.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/slider.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/js.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/form.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/translate.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/cookies.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/effects_002.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/window.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/popup.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/calendar.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/product.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/configurable.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/calendar-setup.js"></script>
 
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/js/varien/weee.js.pagespeed.jm._7x0dSPOX4.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/jquery-1.9.1.min.js.pagespeed.jm.PRK0HGxPgM.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/jquery.form.js.pagespeed.jm.lRznXy1gS-.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/all-pages.js.pagespeed.jm.ySmlDD059T.js"></script>
-<script src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/scroll-to.js+jquery.touchslider.min.js.pagespeed.jc.AqTl4M4T2e.js"></script>
+
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/weee.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/jquery-1.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/jquery_002.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/all-pages.js"></script>
+<script src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/scroll-to.js"></script>
 <script>eval(mod_pagespeed_oLkEntvB7L);</script>
 <script>eval(mod_pagespeed_qdiorT6Tc_);</script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/catalog_product.js.pagespeed.jm.4MBrUxJI0e.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/jquery.scrollfollow.js.pagespeed.jm.Hvghw0nBj7.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/default/mobile/js/plumrocket/privatesales/countdown/jquery.countdown.js.pagespeed.jm.LD6KDv8DCg.js"></script>
-<script type="text/javascript"
-        src="http://s.squixa.net/www.vipplaza.com/635487540162570000/skin/frontend/base/default/js/plumrocket/specialsettings/main.js.pagespeed.jm.ZMz9_rx-Vo.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/catalog_product.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/jquery.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/jquery_003.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/themes/front/line-pdp/assets/main.js"></script>
+
 <link rel="canonical" href="http://www.vipplaza.com/hope-amanda-orange-75842.html"/>
 <link rel="canonical" href="http://www.vipplaza.com/all-events/02030209/hope.html"/>
 

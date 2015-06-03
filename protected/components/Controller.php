@@ -6,7 +6,8 @@
 class Controller extends CController
 {
     //public $url_line_vipplaza = "http://dev.testingdulu.com/";
-    public $url_line_vipplaza = "http://www.vipplaza.com/";
+    public $url_line_vipplaza = "http://www.vipplaza.co.id/";
+    public static $url_line_vip = "http://www.vipplaza.co.id/";//"http://vipplaza2.lc/";
 	/**
 	 * @var string the default layout for the controller view. Defaults to '//layouts/column1',
 	 * meaning using a single column layout. See 'protected/views/layouts/column1.php'.
@@ -29,4 +30,12 @@ class Controller extends CController
     public function baseUrl(){
         return Yii::app()->getBaseUrl(TRUE);
     }
+
+    /*public function __construct(){
+        $pathImage = Yii::getPathOfAlias('webroot').'/images/products/thumbnails/';
+        copy("http://www.vipplaza.co.id/media/catalog/product/cache/1/small_image/250x/040ec09b1e35df139433887a97daa66f/1/_/1_1187.jpg",
+        $pathImage."1_1187.jpg");
+        exit('copied');
+    }*/
+
 }

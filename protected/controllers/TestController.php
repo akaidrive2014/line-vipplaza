@@ -46,28 +46,43 @@ Class TestController extends VipplazaController
         fclose($fh);
     }
 
-    public function actionGetdetail()
+    public function actionGetdetail($fileName)
     {
-        //header("Content-Type:text/plain");
+        header("Content-Type:text/plain");
 
         //echo "<b>TEST</b>";exit;
 
-        $HTML = $this->readHTML('http://www.vipplaza.com/vesperine-kansen-grape-blouse-55578.html');
-        // a new dom object
-        $dom = new domDocument;
-        // load the html into the object
-        $dom->loadHTML('http://www.vipplaza.com/vesperine-kansen-grape-blouse-55578.html');
-        // discard white space
-        $dom->preserveWhiteSpace = false;
-        $mango_div = $dom->getElementById('roll_on');
-        echo $mango_div;
+        $this->readHTML('http://www.vipplaza.com/amary-blue-dress-a0590-89634.html');
 
-        exit;
-        echo $HTML;
-        exit;
-        $explode = explode('<div class="product-img-box">', $HTML);
-        $explode_1 = explode('</div>', $explode[1]);
-        echo $explode_1[0];
+        $JS = '<script>
+        jQuery(function(){
+                jQuery(".header-info-container,#header,.banner-top,#am-ajaxlogin-container").hide();
+            });
+        </script>';
+        $file = $this->checkFile($fileName);
+        $Data = Vipplaza::getFileData($file);
+        $DataProduct = array();
+        if(!empty($Data)){
+            foreach($Data as $index=>$data){
+                if(!empty($Data[$index])){
+                    $id = $Data[$index][0];
+                    $url = file_get_contents($this->url_line_vipplaza."{$id}");
+                    $fileName = $id;
+                    $fh = fopen($fileName, 'w') or die("can't open file");
+                    $stringData = $this->setHtmlProductDetail($url.$JS);
+                    $create = fwrite($fh, $stringData);
+                    $close = fclose($fh);
+                    if($close){
+                        echo $index.". Created <a target=\"_blank\" href=\"{$this->baseUrl()}/{$fileName}\">{$this->baseUrl()}/{$fileName}</a><br>";
+                    }
+                }
+            }
+            exit('Success');
+        }
+    }
+
+    protected function setHtmlProductDetail($data){
+        return $this->renderPartial('_setHtmlProductDetail',array('data'=>$data),true);
     }
 
     public function readHTML($url)
@@ -154,4 +169,11 @@ Class TestController extends VipplazaController
             }
         }
     }
+
+    public function checkFile($file){
+        if(empty($file))
+            throw new CHttpException(404,'The requested page does not exist.');
+        return $file;
+    }
+
 }
