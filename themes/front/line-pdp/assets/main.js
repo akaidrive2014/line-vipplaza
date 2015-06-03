@@ -1,0 +1,2 @@
+Product.OptionsPrice.prototype.formatPrice=function(price){var format=this.priceFormat;if(((parseFloat(price)-parseInt(price))>0)&&(format.requiredPrecision==0)){format.requiredPrecision=2;res=formatCurrency(price,format);format.requiredPrecision=0;return res;}
+return formatCurrency(price,format);}
